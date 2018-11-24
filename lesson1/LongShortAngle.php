@@ -1,6 +1,5 @@
 <?php
 
-
 $time = explode(":", $argv[1]);
 
 $h = $time[0];
@@ -12,7 +11,7 @@ if ($h <0 || $h > 23) {
 }
 
 if ($m <0 || $m > 59) {
-    echo "please input hour between 1 and 59 \n";
+    echo "please input minute between 1 and 59 \n";
     exit();
 }
 
